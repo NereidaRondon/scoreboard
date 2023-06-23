@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'cursed_timer_ulilregular';
+    src: url('font/cursedtimerulil-aznm-webfont.woff2') format('woff2'),
+         url('font/cursedtimerulil-aznm-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+    margin: 0;
+    background-image:url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button{
+    background: none;
+    width:45px;
+    height:45px;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    padding: 10px;
+    margin: 1.5rem 3px;
+    color: #9AABD8;
+    font-family: 'cursed_timer_ulilregular', sans-serif; 
+}
+.new-game-btn{
+    background: #032455;
+    width:200px;
+    height: 60px;
+    padding: 10px 20px 5px 20px;
+    border: 2px solid white;
+    font-size: 24px;
+    display:block;
+    color: #9AABD8;
+    margin: 1rem auto;
+}
+.new-game-btn:hover{
+    background: #010d1f;
+    color: white;
+}    
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;  
+    margin: 2rem auto;
+    border: 4px solid white;
+    border-radius: 10px;
+    padding: 3rem;
+    background: #032455;
+}
+h2{
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: 700;
+}
+.score-div{
+    background: black;
+    display: block;
+    width: 155px;
+    height: 120px;
+    margin: 0;
+    padding: auto;
+    font-family: 'cursed_timer_ulilregular', sans-serif; 
+    color:#F94F6D;
+    border-radius: 5px;
+    font-size: 90px;
+    flex-shrink: 0;
+    line-height: 126.666px;
+    text-align: center;
+    border: 4px solid #032455;
+}
+.guest-div, .home-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    font-family:sans-serif;
+    color: white;
+}
+

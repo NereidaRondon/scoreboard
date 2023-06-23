@@ -49,9 +49,10 @@ button{
     padding: 3rem;
     background: #032455;
 }
-h2{
+h1{
     font-family: Verdana, Geneva, sans-serif;
-    font-weight: 700;
+    font-size: 40px;
+    padding:0;
 }
 .score-div{
     background: black;

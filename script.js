@@ -13,6 +13,9 @@ function homePoints(points){
   
   if(homeScore !== guestScore){
     (homeScore > guestScore)? (home.style.border= "4px solid #ff7300", guest.style.border = "4px solid #032455" ):home.style.border= "4px solid #032455";
+  } else{
+    guest.style.border= "4px solid #032455";
+    home.style.border= "4px solid #032455";
   }
 }
 
@@ -24,7 +27,10 @@ function guestPoints(points){
   
   if(homeScore !== guestScore){
     (guestScore > homeScore)? (guest.style.border = "4px solid #ff7300", home.style.border= "4px solid #032455"): guest.style.border = "4px solid #032455";
-  }  
+  } else{
+    guest.style.border= "4px solid #032455";
+    home.style.border= "4px solid #032455";
+  }
 }
 
 function newGame(){
@@ -32,4 +38,6 @@ function newGame(){
   guestScore = 0;
   home.innerHTML = 0;
   guest.innerHTML = 0;
+  guest.style.border= "4px solid #032455";
+  home.style.border= "4px solid #032455";
 }
